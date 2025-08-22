@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor de monedas Nacional</title>
+  <!-- Bootstrap para estilos responsivos -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+  <!-- Presentación personal -->
+  
+  <section class="my-4">
+  
+    <div class="container">
+  
+      <div class="alert alert-info">
+  
+        <h2>Presentación</h2>
+        <p>
+          Hola, soy <strong>Sebastian Salgado</strong> Desarrollador web. Este proyecto es un conversor de monedas nacionales, creado para facilitar la conversión entre CLP y otras monedas internacionales. ¡Gracias por visitar mi repositorio!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contenido principal -->
+  <div class="container">
+    <h1>CONVERSOR DE MONEDAS NACIONALES</h1>
+
+    <!-- Tarjeta con el formulario de conversión -->
+    <div class="card p-3">
+     
+     
+      <!-- Campo para ingresar el monto en CLP -->
+      <label for="montoPesoChileno">Pesos CLP</label>
+      <input type="number" id="montoPesoChileno" placeholder="Ingrese un monto en CLP" />
+
+     
+     
+      <!-- Selector de moneda destino -->
+      <label for="monedaConvertir"><strong>Moneda a convertir:</strong></label>
+      <select id="monedaConvertir">
+        <option value="">SELECCIONE MONEDA</option>
+        <option value="dolar">USD - Dólar EE.UU.</option>
+        <option value="euro">EUR - Euro</option>
+        <option value="bitcoin">BTC - Bitcoin</option>
+      </select>
+
+     
+      <!-- Botón para convertir -->
+      <button id="btnBuscar" class="btn btn-primary mt-3">Convertir</button>
+
+     
+      <!-- Resultado de la conversión -->
+      <div id="resultado" style="margin-top: 20px;"></div>
+    </div>
+  </div>
+
+  
+  <!-- Pie de página -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-0">2025 Sebastian Salgado | Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  
+  <!-- Script principal -->
+  <script src="script.js"></script>
+</body>
+</html>

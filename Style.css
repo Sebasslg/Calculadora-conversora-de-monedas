@@ -1,0 +1,78 @@
+body {
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c2c2c;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid #dddddd;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #444444;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #cccccc;
+  background-color: #fdfdfd;
+  font-size: 16px;
+}
+
+#btnBuscar {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #00bfa6; /* verde azulado */
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+#btnBuscar:hover {
+  background-color: #009e8c;
+}
+
+#resultado {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 25px;
+  border: 1px solid #dcdcdc;
+}
+
+#resultado h3 {
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 14px;
+}
